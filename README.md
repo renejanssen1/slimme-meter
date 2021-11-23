@@ -1,5 +1,6 @@
 # slimme-meter
 uitlezen slimme meter dsmr 5
+
 Eenvoudig python2 scriptje om je slimme meter uit te lezen.
 
 Benodigheden 
