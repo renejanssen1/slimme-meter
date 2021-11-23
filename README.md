@@ -8,4 +8,4 @@ Benodigheden
 3. installeer pySerial
 4. upload dit script naar je home directory
 
-Vanaf de command line type dan python scripnaam.py
+Vanaf de command line type dan python scriptnaam.py
