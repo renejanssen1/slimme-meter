@@ -10,3 +10,4 @@ Benodigheden
 4. upload dit script naar je home directory
 
 Vanaf de command line type dan python scriptnaam.py
+![rpi](https://user-images.githubusercontent.com/94928681/143091217-8bd4cc1f-2aa2-491f-ba5d-1984bd6414e5.jpg)
