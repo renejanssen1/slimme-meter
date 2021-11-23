@@ -44,4 +44,17 @@ while nr < 26:
 try:
     ser.close()
 except:
-    sys.exit ("%s. Programma afgebroken. Kon de seriele poort niet sluiten." % ser.name )      
+    sys.exit ("%s. Programma afgebroken. Kon de seriele poort niet sluiten." % ser.name )  
+
+def printen(nachtaf, dagaf, nachtterug, dagterug, af, terug, gas, volt, amp):
+        print "daldag                     ", nachtaf, " kWh"
+        print "piekdag                    ", dagaf, " kWh"
+        print "dalterug                   ", nachtterug, " kWh"
+        print "piekterug                  ", dagterug, " kWh"
+        print "Afgenomen vermogen         ", af, " W"
+        print "Teruggeleverd vermogen     ", terug, " W"
+        print "Voltage                    ", volt, " V"
+        print "Vermogen                   ", amp, " A"
+        print "Gas                        ", gas, " m3"
+
+printen(nachtaf, dagaf, nachtterug, dagterug, af, terug, gas, volt, amp)    
